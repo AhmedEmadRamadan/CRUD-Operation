@@ -1,0 +1,25 @@
+input:focus,
+#productDesc:focus{
+  outline: none;
+  border : 1px solid #ccc;
+  box-shadow: 0 0 10px #ddd;
+}
+input {
+  border: 1px solid #777;
+  padding: 2px;
+}
+label {
+  color: #444;
+  cursor: pointer;
+}
+#productDesc {
+  resize: none;
+  padding: 2px;
+}
+.box {
+  box-shadow: 0 10px 35px -12px rgba(0, 0, 0, 0.75);
+}
+
+span {
+  background-color: #777;
+}
